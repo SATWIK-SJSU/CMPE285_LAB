@@ -1,0 +1,87 @@
+body {
+    background: #eeeee4 !important; /* Updated dark background color */
+    font-family: 'Arial', sans-serif;
+    color: #f1f1f1; /* Updated light text color */
+}
+
+.box {
+    padding: 2%;
+    width: 60%;
+    background: #ffffff; /* White background */
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Updated to a slightly darker box shadow */
+}
+
+/* Header styling */
+.box h3 {
+    color: #4a4a4a; /* Updated to a softer dark text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Updated box shadow for more depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Footer styling */
+footer {
+    background: #202021; /* Updated darker background */
+    color: #f1f1f1; /* Updated light text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Card styling */
+.stockCard {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Updated box shadow for consistency */
+    border: 1px solid #d1d1d1; /* Updated to a lighter border color */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Loading spinner styling */
+.ant-spin {
+    color: #5b9bd5; /* Updated primary color for the spinner */
+}
+
+/* Spin tip styling */
+.ant-spin-text {
+    color: #9a9a9a; /* Updated to a darker text color */
+}
+
+/* Divider styling */
+.ant-divider {
+    background-color: #d9d9d9; /* Updated to a slightly darker divider */
+}
+
+/* Typography styling */
+.ant-typography {
+    color: #4a4a4a; /* Updated to a softer dark text color */
+}
+
+/* Amount and Investing Strategies styling */
+.text strong {
+    color: #4a4a4a; /* Consistent with updated dark text color */
+}
+
+.text {
+    color: #6a6a6a; /* Updated to a mid-gray text color */
+}
+
+/* Link styling */
+a {
+    color: #3480eb; /* Updated vibrant blue for links */
+}
+
+a:hover {
+    color: #2872c7; /* Updated to a richer blue on hover */
+}
